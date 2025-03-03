@@ -2,8 +2,9 @@
 let fizz = 0
 let buzz = 0
 let fizzBuzz = 0
-let maxNumber = 1000
-for (i = 1; i <= maxNumber; i++) {
+
+while (fizzes<1000) {
+
     if (i % 15 == 0) {
         console.log(i + " fizz buzz")
         fizzBuzz = fizzBuzz + 1
